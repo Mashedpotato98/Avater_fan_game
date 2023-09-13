@@ -1,0 +1,50 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1694585827
+icon.svg::CompressedTexture2D::8753738338541933739::1694414450::1694583482::1::::<><>::
+::res://anim_game/::1694414450
+::res://anim_game/avater/::1694583486
+attack_1.png::CompressedTexture2D::6236616643286688532::1694414450::1694583486::1::::<><>::
+death.png::CompressedTexture2D::5818409572190320713::1694414450::1694583486::1::::<><>::
+Idle.png::CompressedTexture2D::2543527275551538608::1694414450::1694583486::1::::<><>::
+kick.png::CompressedTexture2D::53633372015977038::1694414450::1694583486::1::::<><>::
+punch.png::CompressedTexture2D::1066740367898440164::1694414450::1694583486::1::::<><>::
+run.png::CompressedTexture2D::752361641592354214::1694414450::1694583486::1::::<><>::
+::res://anim_game/avater/throwable attacks/::1694583486
+air_ball.png::CompressedTexture2D::6626788747050229096::1694414450::1694583486::1::::<><>::
+air_long.png::CompressedTexture2D::5743844498917990684::1694414450::1694583486::1::::<><>::
+::res://anim_game/cutscene art/::1694414450
+::res://anim_game/cutscene art/Avatar Aang/::1694583487
+Aang_kioshy1.jpg::CompressedTexture2D::268151024887864187::1694414450::1694583487::1::::<><>::
+aang_night1.jpg::CompressedTexture2D::8771124241516471356::1694414450::1694583487::1::::<><>::
+Aang_ozai1.jpg::CompressedTexture2D::4649372615567100963::1694414450::1694583486::1::::<><>::
+aang_portrait.jpg::CompressedTexture2D::8312194115873524383::1694414450::1694583485::1::::<><>::
+Aang_volcano.jpg::CompressedTexture2D::1841143610030154325::1694414450::1694583484::1::::<><>::
+airtemple1.jpg::CompressedTexture2D::3804707328617872196::1694414450::1694583485::1::::<><>::
+appa_and_Aang.jpg::CompressedTexture2D::5522182848233035630::1694414450::1694583484::1::::<><>::
+elemantal_sphere1.jpg::CompressedTexture2D::2942733887460622818::1694414450::1694583486::1::::<><>::
+waterbending_aang1.jpg::CompressedTexture2D::8416079514500713504::1694414450::1694583484::1::::<><>::
+::res://anim_game/cutscene art/Kataang/::1694583484
+Dance_kataang.jpg::CompressedTexture2D::521974602053743401::1694414450::1694583484::1::::<><>::
+Imbalance_kataang.jpg::CompressedTexture2D::5167716539850350858::1694414450::1694583483::1::::<><>::
+kataang_family.jpg::CompressedTexture2D::6170962655623470300::1694414450::1694583483::1::::<><>::
+kattaang_kiss.jpg::CompressedTexture2D::8745389115921516844::1694414450::1694583484::1::::<><>::
+sunset_kataang.jpg::CompressedTexture2D::4352505861634084808::1694414450::1694583484::1::::<><>::
+::res://anim_game/zuko/::1694583482
+zuko_attack_1.png::CompressedTexture2D::7330506847684622089::1694414450::1694583482::1::::<><>::
+zuko_hurt.png::CompressedTexture2D::2353226291199736759::1694414450::1694583482::1::::<><>::
+zuko_idle.png::CompressedTexture2D::8153329461189186554::1694414450::1694583482::1::::<><>::
+zuko_kick.png::CompressedTexture2D::6869102452340168399::1694414450::1694583482::1::::<><>::
+zuko_punch.png::CompressedTexture2D::4432232347802855677::1694414450::1694583482::1::::<><>::
+zuko_walk.png::CompressedTexture2D::5460399624391141897::1694414450::1694583482::1::::<><>::
+::res://anim_game/zuko/throwable_attacks/::1694583482
+fire_ball.png::CompressedTexture2D::2456532778551149770::1694414450::1694583482::1::::<><>::
+fire_long.png::CompressedTexture2D::7370934062973795084::1694414450::1694583482::1::::<><>::
+::res://scenes/::1694585825
+player.tscn::PackedScene::52097954570508646::1694585801::0::1::::<><>::res://scripts/Player.gd
+::res://scenes/states/::1694585882
+state_machine.tscn::PackedScene::1606715037714339950::1694585882::0::1::::<><>::res://scripts/state_machine.gd
+::res://scripts/::1694585914
+Player.gd::GDScript::-1::1694584151::0::1::::<>CharacterBody2D<>::
+state.gd::GDScript::-1::1694585801::0::1::::state_machine<>Node<>::
+state_machine.gd::GDScript::-1::1694585874::0::1::::<>Node2D<>::
+::res://scripts/states/::1694585914

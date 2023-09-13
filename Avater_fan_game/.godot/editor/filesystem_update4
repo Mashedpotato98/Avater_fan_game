@@ -1,0 +1,6 @@
+res://scenes/player.tscn
+res://state.gd
+res://scenes/states/state_machine.tscn
+res://scripts/state_machine.gd
+res://scripts/states/player/player_walk.gd
+res://scripts/Player.gd

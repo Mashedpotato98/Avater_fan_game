@@ -1,0 +1,26 @@
+[gd_scene load_steps=6 format=3 uid="uid://0ibs3g1ug7o"]
+
+[ext_resource type="Script" path="res://scripts/Player.gd" id="1_6xabk"]
+[ext_resource type="PackedScene" uid="uid://w5kmkngjsejm" path="res://scenes/states/state_machine.tscn" id="2_324cw"]
+[ext_resource type="Texture2D" uid="uid://dwym158cc4v3x" path="res://icon.svg" id="2_rf5i3"]
+[ext_resource type="Script" path="res://scripts/states/player/player_walk.gd" id="3_m1ss0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4y7ae"]
+size = Vector2(89, 91)
+
+[node name="Player" type="CharacterBody2D"]
+script = ExtResource("1_6xabk")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_rf5i3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(2.5, -1.5)
+shape = SubResource("RectangleShape2D_4y7ae")
+
+[node name="state machine" parent="." node_paths=PackedStringArray("initial_state") instance=ExtResource("2_324cw")]
+initial_state = NodePath("PlayerWalk")
+
+[node name="PlayerWalk" type="Node" parent="state machine" node_paths=PackedStringArray("player")]
+script = ExtResource("3_m1ss0")
+player = NodePath("../..")
